@@ -1,0 +1,29 @@
+.container-house {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #FFF;
+
+    width: 358px;
+    height: 260px;
+    overflow-y: auto;
+}
+.head-house {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.name-slot {
+    color: #353D4B;
+}
+.buttons-slot {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.body-house {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}

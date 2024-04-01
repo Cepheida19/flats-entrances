@@ -1,0 +1,32 @@
+.wrap-table {
+    height: 220px;
+}
+
+table {
+    border-spacing: 0;
+    text-align: center;
+    color: #353D4B;
+}
+
+th {
+    height: 60px;
+    width: 179px;
+}
+td {
+    height: 32px;
+}
+
+th,
+td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: #000000;
+}
+
+th:last-child {
+    border-right: none;
+}
+
+tr td:last-child {
+    border-right: none;
+}

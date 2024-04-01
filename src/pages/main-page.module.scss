@@ -1,0 +1,9 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+
+    background-color: #FFFFFF;
+    border: none;
+    padding: 40px;
+}
