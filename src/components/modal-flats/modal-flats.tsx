@@ -56,7 +56,7 @@ export const ModalFlats: React.FC<ModalPropsType> = ({ isOpen, onClose, onCloseE
                             {activeElement && activeElement?.flats?.map(item =>
                                 <Button
                                     onClick={() => setActiveFlats(item)}
-                                    isActive={severalActiveFlats.some(x => x === item)}
+                                    isActive={severalActiveFlats.some(flat => flat === item)}
                                     variant={'list'}>
                                     {item}
                                 </Button>

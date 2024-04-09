@@ -27,10 +27,10 @@ const dataSlice = createSlice({
   initialState,
   reducers: {
     addEntrance(state, action: PayloadAction<houseActionType>) {
-      state.houses.map(x => x.id === action.payload.id && x.entrances.push(action.payload.data))
+      state.houses.map(house => house.id === action.payload.id && house.entrances.push(action.payload.data))
     },
     removeEntrance(state, action: PayloadAction<Omit<houseActionType, 'data'>>) {
-      state.houses.map(x => x.id === action.payload.id ? x.entrances.length = 0 : null)
+      state.houses.map(house => house.id === action.payload.id ? house.entrances.length = 0 : null)
     },
   },
 })
